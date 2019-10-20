@@ -1,2 +1,6 @@
-const fs=require('fs');
-fs.writeFileSync('hello.txt','Hi from node');
+function test()
+{
+  console.log("Hello World");
+}
+
+test()
